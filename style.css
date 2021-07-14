@@ -11,7 +11,7 @@ h1 {
 }
 h2 {
   font-size: 32px;
-  border-bottom: solid 1px gray;
+  border-bottom: solid 1px #3e3848;
   margin-top: 8px;
   font-weight: 400;
 }
@@ -36,4 +36,8 @@ body {
   line-height: 1.5;
   padding-top: 32px;
   padding-bottom: 32px;
+  border: solid;
+  border-radius: 12px;
+  padding: 36px 18px;
+  color: #3e3848;
 }
