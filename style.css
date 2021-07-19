@@ -4,7 +4,7 @@ body {
   margin: 0 auto;
   padding: 50px 0 100px;
   font-family: Georgia, serif;
-  background-color: #eee;
+  background-color: #c4fcef;
   line-height: 1.0;
 }
 h2 {
@@ -12,10 +12,10 @@ h2 {
   text-align: center;
   }
 h3 {
-  color: #646464;
+  color: black;
 }
 .logo {
-  color: #646464;
+  color: black;
   font-size: 50px;
   line-height: normal;
   margin-bottom: 30px;
@@ -23,7 +23,10 @@ h3 {
   }
 .nav a {
   text-decoration: none;
-  color: #646464;
+  color: black;
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 4px 8px;
   }
 .nav {
   justify-content: space-between;
@@ -36,7 +39,7 @@ h3 {
 }
 .Who-position {
   text-align: center;
-  color: #646464;
+  color: black;
 }
 .photo {
 text-align: center;
@@ -47,8 +50,12 @@ text-align: center;
   }
 footer {
   text-align: center;
-}
+  padding: 20px 0 100px;
+  }
 .info a {
   text-decoration: none;
-  color: #646464;
+  color: black;
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 4px 8px;
 }
