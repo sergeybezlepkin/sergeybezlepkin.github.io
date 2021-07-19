@@ -2,61 +2,67 @@
 <html lang=ru>
 <head>
 	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
 	<title>Resume</title>
-	<link rel="stylesheet" href="style.css"/>
+	 <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
- <div id="header">
-  <h1 class="header-title">Безлепкин Сергей</h1>
-   <h2 class="header-title">Системный администратор Linux</h2>
- <p><a href="mailto:sergey.bezlepkin@icloud.com" class="email" target="_blank">E-mail</a>
-   <a href="https://linkedin.com/in/sergeybezlepkin" class="lin" target="_blank">LinkedIn</a>
-   <a href="https://ru.hexlet.io/u/sergeybezlepkin" class="hex" target="_blank">Hexlet</a>
-   <a href="https://github.com/sergeybezlepkin" class="git" target="_blank">GitHub</a>
-  </p>
-</div>
-<div id=main>
- <p>Всем привет! Последние 6 лет провел в сфере продаж, много работал с людьми. Занимался менеджементом цифрового/игрового направления, решал конфликтные ситуации, делал установку и настройку программного обеспечения )
-   Внимание к деталям научила думать аналитически, эффективно распоряжаться временем, научился работать в команде, быстро обучаться )
- </p>
-<section>
-<h2>Опыт работы</h2>
- <h3>ЗАО МТбанк</h3>
- <p>Специалист сопровождения и мониторинга, май 2021 - по настоящее время</p>
- <ul>
- <li>TCP/IP</li>
- <li>Linux</li>
- <li>Zabbix</li>
- </ul>
- <h3>ЗАО Патио</h3>
- <p>Специалист по закупкам, март 2019 - март 2021</p>
- <ul>
- <li>1С</li>
- <li>Документооборот</li>
- <li>Формирование ассортимента</li>
- <li>Управление товарными запасами</li>
- </ul>
-</section>
-<section>
- <h2>Образование</h2>
- <h3>Белорусский государственный аграрный технический университет</h3>
- <p>Экономист, 2019-2024</p>
- <h3>IT-Academy</h3>
- <p>Курс - "Базовое администрирование Linux", март 2021 - 1 месяц</p>
- <h3>Хекслет</h3>
- <p>Курсы HTML, CSS, GIT, Phyton и тд. май 2021 - по настоящее время</p>
- </section>
-<section>
- <h2>Другие навыки и увлечения</h2>
- <ul>
-  <li>Чтение</li>
-  <li>Настольные игры</li>
-  <li>Страйкбол</li>
- </ul>
-</section>
-</div>
-<div id=footer>
- <h3>Безлепкин Сергей</h3>
- <p>Республика Беларусь, Минск</p>
- </div>
-</body>
+  <header>
+    
+    <div class="logo">Резюме</div>
+    <hr>
+    <nav class="nav">
+    <a href="https://ru.hexlet.io/u/sergeybezlepkin" target="_blank">Хекслет</a>
+    <a href="https://github.com/sergeybezlepkin" target="_blank">GitHub</a>
+    <a href="https://linkedin.com/in/sergeybezlepkin" target="_blank">LinkedIn</a>
+    </nav>
+  </header>
+  <article class="Who">
+    <hr>
+  <h1 class="Who-header">Безлепкин Сергей</h1>
+  <p class="Who-position">Системный администратор Linux</p>
+  <p class="photo"> <img src="../img/index.jpg" class="photo1"></p>
+  <hr>
+    <div class="work">
+          <h2>Опыт работы</h2>
+          <h3>ЗАО МТБанк</h3>
+          <p>Специалист системного сопровождения службы мониторинга</p>
+          <ul> 
+            <li>Конфигурирование и сопровождения сервера</li>
+          <li>Сопровождение работоспособности системы мониторинга</li>
+          </ul>
+          <h3>ЗАО Патио - 5 элемент</h3>
+          <p>Специалист по закупкам акксесуаров</p>
+          <ul>
+            <li>Работа в 1С</li>
+            <li>Документооборот</li>
+            <li>Контроль и размещение ассортимента</li>
+          </ul>
+     </div>
+      </article>
+      <div class="Education">
+        <h2>Образование</h2>
+        <ul>
+          <li><p>Белорусский государственный аграрно-технический университет, 2019-2024<p></li>
+
+          <li><p>Образовательный центр IT-Academy, курс "Базовое системное администрирование Linux", март 2021</p></li>
+          <li><p>Хекслет - практические курсы по программированию, с 2020 по настоящее время</p></li>
+        </ul>
+          </div>
+      <div class="Hobbies">
+         <h2>Увлечения</h2>
+        <ul>
+          <li><p>Чтение литературы</p></li>
+          <li><p>Настольные игры</p></li>
+          <li><p>Стрелковый спорт: Страйкбол</p></li>
+        </ul>
+      </div>
+      <hr>
+      <footer>
+        <div class="info">
+          <p>Республика Беларусь, 2021</p>
+          <a href="mailto:sergey.bezlepkin@icloud.com">E-mail</a>
+        </div>
+      </footer>  
+  </body>
+</html>
